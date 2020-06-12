@@ -23,7 +23,7 @@ app.engine('hbs', exphbs({ extname: 'hbs', defaultLayout: 'mainLayout', layoutsD
 app.set('view engine', 'hbs')
 
 //server port
-app.listen(3000 , ()=>{
+app.listen(3001 , ()=>{
     console.log('Server started at port 3000')
 })
 
